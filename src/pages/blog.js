@@ -15,7 +15,7 @@ class Blog extends React.Component {
     const localSearchBlog = data.localSearchBlog
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={"Space Investor Bloq"}>
         <SEO title="All posts" />
         <Bio />
         <SearchPosts
