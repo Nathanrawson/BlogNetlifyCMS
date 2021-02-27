@@ -17,12 +17,11 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
         return (
           <Container>
             <Image
               fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
+              alt={"Nathan Rawson"}
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
@@ -34,11 +33,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a bloq for those interested investing in space
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
+              Written by <strong>Nathan Rawson</strong>, a bloq for those interested investing in space
             </p>
           </Container>
         )
