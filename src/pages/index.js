@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Button from "../components/button"
 
 class IndexPage extends React.Component {
+
   render() {
     const siteTitle = "Become a Space Investor"
 
@@ -30,6 +31,7 @@ class IndexPage extends React.Component {
           Hope you enjoy the read!
         </p>
         <Link to="/blog/">
+
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
       </Layout>

@@ -25,19 +25,19 @@ function SEO({ description, lang, meta, keywords, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = "Space Investor Bloq";
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={"Space Investor"}
+      titleTemplate={"Space Investor Bloq"}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: "A Bloq for people interested in the future of Space",
         },
         {
           property: `og:title`,
@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: "A Bloq for people interested in the future of Space",
         },
         {
           property: `og:type`,
@@ -57,23 +57,23 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: "Nathan Rawson"
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: "Nathan Rawson",
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: "Nathan Rawson Twitter",
         },
       ]
         .concat(
           keywords.length > 0
             ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
+              name: `keywords`,
+              content: 'Space, Investing, Innovation, Bloq',
+            }
             : []
         )
         .concat(meta)}
