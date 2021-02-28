@@ -1,7 +1,7 @@
 ---
 path: ReasonsToInvestInSpace
 date: 2021-02-27T21:27:58.445Z
-title: 10 Reasons We Should Invest More In Space
+title: 10 Reasons Why We Should Invest More In Space
 description: "Why should we invest more in space? "
 ---
 <!--StartFragment-->
