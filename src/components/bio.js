@@ -20,7 +20,7 @@ function Bio() {
         return (
           <Container>
             <Image
-              src={"https://res.cloudinary.com/dng8alzfo/image/upload/v1614521345/spaceinvestor/gatsby-icon.png"}
+              fixed={data.avatar.childImageSharp.fixed}
               alt={"Nathan Rawson"}
               style={{
                 marginRight: rhythm(1 / 2),
